@@ -53,8 +53,11 @@ Once we've generated our SIFT descriptors we combine them together in one high d
 Finally we find the vector distance between our query image's bag of words with that of the other images in our bank and rank matches based on the closeness of this vector distance (the smaller the vector distance, the stronger the match). Take a look at some of the results:
 
 <div align='center'>
+    <h4>Example 1</h4>
     <img src='./assets/images/query1.jpg'>
+    <h4>Example 2</h4>
     <img src='./assets/images/query3.jpg'>
+    <h4>Example 3</h4>
     <img src='./assets/images/query4-2.jpg'>
 </div>
 
