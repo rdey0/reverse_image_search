@@ -24,7 +24,7 @@ In order to generate SIFT features, we must first find patches in our images. Pa
 <div align='center'>
     <img src='./assets/images/patches.PNG'>
     <div>
-        The photo on the right is an image of all of the detected patches. Notice how the items on the fridge were chosen due to their high contrast edges
+        <b>The photo on the right is an image of all of the detected patches. Notice how the items on the fridge were chosen due to their high contrast edges</b>
     </div>
 </div>
 
@@ -43,7 +43,7 @@ Once we've generated our SIFT descriptors we combine them together in one high d
 <div align='center'>
     <img src='./assets/images/2.2Patches.PNG'>
     <div>
-        Here you can see the different patches associated with the same word. Word 1 seems to represent eye-like features while word 2 seems to represent checkered/woven features.
+        <b>Here you can see the different patches associated with the same word. Word 1 seems to represent eye-like features while word 2 seems to represent checkered/woven features.</b>
     </div>
 </div>
 <br/>
