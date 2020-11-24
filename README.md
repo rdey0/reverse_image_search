@@ -22,7 +22,7 @@ Scale-invariant feature transform (SIFT) descriptors are essentially visual feat
 In order to generate SIFT features, we must first find patches in our images. Patches can be thought of as the various visual interest points that an image posseses. These interest points can manifest themselves as sharp corners or high contrast edges which make an image distinct. In order to find these points, we use the Harris corner detection filter.
 
 <div align='center'>
-    <img src='./assets/images/patches.png'>
+    <img src='./assets/images/patches.PNG'>
     <div>
         The photo on the right is an image of all of the detected patches. Notice how the items on the fridge were chosen due to their high contrast edges
     </div>
@@ -37,11 +37,11 @@ Once we've found these patches, we map the visual data of each patch into high d
 Once we've generated our SIFT descriptors we combine them together in one high dimensional feature space (essentially a 128 dimensional space) and run k means clustering on this feature space. K means clustering finds different regions in our feature space where points are clustered together. These tightly clustered points are our words.
 
 <div align='center'>
-    <img src='./assets/images/feature-space-words.png'>
+    <img src='./assets/images/feature-space-words.PNG'>
 </div>
 <br/>
 <div align='center'>
-    <img src='./assets/images/2.2Patches.png'>
+    <img src='./assets/images/2.2Patches.PNG'>
     <div>
         Here you can see the different patches associated with the same word. Word 1 seems to represent eye-like features while word 2 seems to represent checkered/woven features.
     </div>
